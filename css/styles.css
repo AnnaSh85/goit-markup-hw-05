@@ -102,7 +102,7 @@ body {
 }
 .header-link {
   color: var(--second-title-color);
-  outline: inherit;
+
   transition-property: color;
   transition-duration: var(--time);
   transition-timing-function: var(--time-function);
@@ -137,7 +137,6 @@ body {
 .tel-icon {
   fill: currentColor;
   margin-right: 10px;
-  outline: inherit;
 }
 .mail:hover,
 .mail:focus,
@@ -264,7 +263,7 @@ body {
   border-radius: 4px;
   color: var(--second-btn-color);
   background-color: var(--accent-color);
-  outline: inherit;
+
   transition-property: background-color;
   transition-duration: var(--time);
   transition-timing-function: var(--time-function);
@@ -289,7 +288,7 @@ body {
   padding-bottom: 6px;
   padding-left: 22px;
   padding-right: 22px;
-  outline: inherit;
+
   transition-property: color, background-color, box-shadow;
   transition-duration: var(--time);
   transition-timing-function: var(--time-function);
@@ -423,7 +422,7 @@ body {
   align-items: center;
   justify-content: center;
   fill: #afb1b8;
-  outline: inherit;
+
   transition-property: fill, background-color;
   transition-duration: var(--time);
   transition-timing-function: var(--time-function);
@@ -452,7 +451,7 @@ body {
   align-items: center;
   justify-content: center;
   fill: #afb1b8;
-  outline: inherit;
+
   transition-property: fill, background-color, border-color;
   transition-duration: var(--time);
   transition-timing-function: var(--time-function);
@@ -518,7 +517,7 @@ body {
   align-items: center;
   justify-content: center;
   fill: var(--second-btn-color);
-  outline: inherit;
+
   transition-property: background-color;
   transition-duration: var(--time);
   transition-timing-function: var(--time-function);
@@ -606,7 +605,7 @@ body {
   background-color: var(--second-btn-color);
   border: 1px solid #eeeeee;
   display: block;
-  outline: inherit;
+
   transition-property: box-shadow;
   transition-duration: var(--time);
   transition-timing-function: var(--time-function);
@@ -660,6 +659,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
 }
 
 .is-hidden {
